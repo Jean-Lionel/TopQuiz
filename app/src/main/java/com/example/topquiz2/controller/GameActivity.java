@@ -18,7 +18,6 @@ public class GameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-
         mquestionTextView = findViewById(R.id.game_activity_textview_question);
         mButton1 = findViewById(R.id.game_activity_button_1);
         mButton2 = findViewById(R.id.game_activity_button_2);
